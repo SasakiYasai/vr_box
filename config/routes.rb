@@ -53,4 +53,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  match 'login' => 'login#login'
+  match 'bye' => 'login#bye'
 end
