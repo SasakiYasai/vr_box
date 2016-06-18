@@ -1,0 +1,2 @@
+class UplodeConfirmController < ApplicationController
+end

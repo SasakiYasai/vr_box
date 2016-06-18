@@ -1,0 +1,2 @@
+module ViewSambHelper
+end

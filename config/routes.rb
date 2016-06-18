@@ -53,4 +53,12 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+    get    'login'   => 'login#login'
+    get    'top'   => 'top#top'
+    get    'uplode_confirm'   => 'uplode_confirm#uplode_confirm'
+    get    'uplode'   => 'uplode#uplode'
+    get    'uplode_finish'   => 'uplode_finish#uplode_finish'
+    get    'view_detail'   => 'view_detail#view_detail'
+    get    'view_samb'   => 'view_samb#view_samb'
+
 end

@@ -1,10 +1,6 @@
 class LoginController < ApplicationController
     
-  def hello
+  def login
     render :text => 'Hello!'
-  end
-
-  def bye
-    render :text => 'bye!'
   end
 end
